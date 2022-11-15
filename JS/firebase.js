@@ -40,6 +40,7 @@ async function addDocument_AutoID(input1, input2) {
 
 submitBtn.addEventListener("click", (e) => {
   e.preventDefault();
+
   let input1 = document.getElementById("input1").value;
   let input2 = document.getElementById("input2").value;
 
